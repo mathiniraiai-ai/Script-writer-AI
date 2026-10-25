@@ -1,0 +1,446 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-10-22T17:51:40.355095+00:00",
+  "mode": "statistical_zero_api",
+  "has_textgrad": true,
+  "summary": "In Tier-S winners, average Hook length is 8.5 words (overall winners: 8.8 words) vs 19.2 words in Tier-B losers; AI Teacher interrupts by Turn 2 in 40% of winners (vs 25% of Tier-B losers).",
+  "dataset_summary": {
+    "total_records": 5,
+    "tier_s_count": 2,
+    "tier_a_count": 3,
+    "tier_b_count": 0,
+    "winners_count": 5,
+    "losers_count": 0
+  },
+  "tier_s_metrics": {
+    "hook_word_count": 8.5,
+    "hook_word_count_median": 8.5,
+    "avg_words_per_line": 10.35,
+    "ai_teacher_entry_turn": 12.5,
+    "ai_entry_by_turn_2_rate": 0.5,
+    "ai_entry_by_turn_2_pct": 50.0,
+    "first_half_usps_pct": 0.0,
+    "total_turns": 27
+  },
+  "winner_metrics": {
+    "hook_word_count": 8.8,
+    "hook_word_count_median": 9.0,
+    "avg_words_per_line": 10.18,
+    "ai_teacher_entry_turn": 9.2,
+    "ai_entry_by_turn_2_rate": 0.4,
+    "ai_entry_by_turn_2_pct": 40.0,
+    "first_half_usps_pct": 0.0,
+    "total_turns": 26.2
+  },
+  "loser_metrics": {
+    "hook_word_count": 19.2,
+    "hook_word_count_median": 19.0,
+    "avg_words_per_line": 17.8,
+    "ai_teacher_entry_turn": 3.5,
+    "ai_entry_by_turn_2_rate": 0.25,
+    "ai_entry_by_turn_2_pct": 25.0,
+    "first_half_usps_pct": 20.0,
+    "total_turns": 4.5
+  },
+  "statistical_dna": {
+    "hook_word_count": {
+      "tier_s_avg": 8.5,
+      "winners_avg": 8.8,
+      "losers_avg": 19.2,
+      "delta_tier_s_vs_loser": -10.7,
+      "optimal_max_words": 10
+    },
+    "avg_words_per_line": {
+      "tier_s_avg": 10.35,
+      "winners_avg": 10.18,
+      "losers_avg": 17.8,
+      "delta_tier_s_vs_loser": -7.45,
+      "optimal_max_words_per_line": 11.7
+    },
+    "ai_teacher_entry_turn": {
+      "tier_s_avg": 12.5,
+      "winners_avg": 9.2,
+      "losers_avg": 3.5,
+      "winners_by_turn_2_pct": 40.0,
+      "losers_by_turn_2_pct": 25.0,
+      "optimal_max_turn": 2
+    },
+    "total_turns": {
+      "tier_s_avg": 27,
+      "winners_avg": 26.2,
+      "losers_avg": 4.5,
+      "optimal_range": [
+        26,
+        29
+      ]
+    },
+    "hook_angle_win_rates": {
+      "Direct Question / Challenge": {
+        "winners": 3,
+        "losers": 0,
+        "tier_s_count": 1,
+        "total": 3,
+        "win_rate": 1.0,
+        "win_rate_pct": 100.0,
+        "tier_s_rate": 0.3333,
+        "avg_cac": 273.0,
+        "avg_cac_vs_lang_pct": -5.63
+      },
+      "Social / Public Embarrassment": {
+        "winners": 1,
+        "losers": 0,
+        "tier_s_count": 1,
+        "total": 1,
+        "win_rate": 1.0,
+        "win_rate_pct": 100.0,
+        "tier_s_rate": 1.0,
+        "avg_cac": 238.0,
+        "avg_cac_vs_lang_pct": -26.1
+      },
+      "Spoken Mistake Correction": {
+        "winners": 1,
+        "losers": 0,
+        "tier_s_count": 0,
+        "total": 1,
+        "win_rate": 1.0,
+        "win_rate_pct": 100.0,
+        "tier_s_rate": 0.0,
+        "avg_cac": 298.0,
+        "avg_cac_vs_lang_pct": -4.2
+      }
+    },
+    "persona_win_rates": {
+      "College Student / General": {
+        "winners": 5,
+        "losers": 0,
+        "tier_s_count": 2,
+        "total": 5,
+        "win_rate": 1.0,
+        "win_rate_pct": 100.0,
+        "tier_s_rate": 0.4,
+        "avg_cac": 271.0,
+        "avg_cac_vs_lang_pct": -9.44
+      }
+    },
+    "split_screen_type_win_rates": {
+      "A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen": {
+        "winners": 1,
+        "losers": 0,
+        "tier_s_count": 1,
+        "total": 1,
+        "win_rate": 1.0,
+        "win_rate_pct": 100.0,
+        "tier_s_rate": 1.0,
+        "avg_cac": 238.0,
+        "avg_cac_vs_lang_pct": -26.1
+      },
+      "A girl of age 25-30 is at the sea beach holding a selfie stick and talking to the phone. Vertical Split screen. On the left - Female Robot. On the right- same girl at home.": {
+        "winners": 1,
+        "losers": 0,
+        "tier_s_count": 1,
+        "total": 1,
+        "win_rate": 1.0,
+        "win_rate_pct": 100.0,
+        "tier_s_rate": 1.0,
+        "avg_cac": 251.0,
+        "avg_cac_vs_lang_pct": -12.7
+      },
+      "A group of 4–5 boys are hanging out at a party, casually talking. One of the boys says something in English. The others immediately react. - Scene 2 — Split-Screen AI Practice": {
+        "winners": 1,
+        "losers": 0,
+        "tier_s_count": 0,
+        "total": 1,
+        "win_rate": 1.0,
+        "win_rate_pct": 100.0,
+        "tier_s_rate": 0.0,
+        "avg_cac": 298.0,
+        "avg_cac_vs_lang_pct": -4.2
+      },
+      "A Women shopkeeper is selling Chat on the streets of Daily. A VoxPop interviewer is talking to her. The woman turns around to her right as the Female Humanoid robot appears in the top half of the frame. It is not a split screen. Just follow the reference for how it has been done.": {
+        "winners": 1,
+        "losers": 0,
+        "tier_s_count": 0,
+        "total": 1,
+        "win_rate": 1.0,
+        "win_rate_pct": 100.0,
+        "tier_s_rate": 0.0,
+        "avg_cac": 283.0,
+        "avg_cac_vs_lang_pct": -3.5
+      },
+      "Lady aged 25yrs Leaning towards the camera talking to it - White Background Scene change - Horizontal split screen - Lady and female robot": {
+        "winners": 1,
+        "losers": 0,
+        "tier_s_count": 0,
+        "total": 1,
+        "win_rate": 1.0,
+        "win_rate_pct": 100.0,
+        "tier_s_rate": 0.0,
+        "avg_cac": 285.0,
+        "avg_cac_vs_lang_pct": -0.7
+      }
+    }
+  },
+  "hook_angle_win_rates": {
+    "Direct Question / Challenge": {
+      "winners": 3,
+      "losers": 0,
+      "tier_s_count": 1,
+      "total": 3,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 0.3333,
+      "avg_cac": 273.0,
+      "avg_cac_vs_lang_pct": -5.63
+    },
+    "Social / Public Embarrassment": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 1,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 1.0,
+      "avg_cac": 238.0,
+      "avg_cac_vs_lang_pct": -26.1
+    },
+    "Spoken Mistake Correction": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 0,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 0.0,
+      "avg_cac": 298.0,
+      "avg_cac_vs_lang_pct": -4.2
+    }
+  },
+  "persona_win_rates": {
+    "College Student / General": {
+      "winners": 5,
+      "losers": 0,
+      "tier_s_count": 2,
+      "total": 5,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 0.4,
+      "avg_cac": 271.0,
+      "avg_cac_vs_lang_pct": -9.44
+    }
+  },
+  "split_screen_type_win_rates": {
+    "A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 1,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 1.0,
+      "avg_cac": 238.0,
+      "avg_cac_vs_lang_pct": -26.1
+    },
+    "A girl of age 25-30 is at the sea beach holding a selfie stick and talking to the phone. Vertical Split screen. On the left - Female Robot. On the right- same girl at home.": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 1,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 1.0,
+      "avg_cac": 251.0,
+      "avg_cac_vs_lang_pct": -12.7
+    },
+    "A group of 4–5 boys are hanging out at a party, casually talking. One of the boys says something in English. The others immediately react. - Scene 2 — Split-Screen AI Practice": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 0,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 0.0,
+      "avg_cac": 298.0,
+      "avg_cac_vs_lang_pct": -4.2
+    },
+    "A Women shopkeeper is selling Chat on the streets of Daily. A VoxPop interviewer is talking to her. The woman turns around to her right as the Female Humanoid robot appears in the top half of the frame. It is not a split screen. Just follow the reference for how it has been done.": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 0,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 0.0,
+      "avg_cac": 283.0,
+      "avg_cac_vs_lang_pct": -3.5
+    },
+    "Lady aged 25yrs Leaning towards the camera talking to it - White Background Scene change - Horizontal split screen - Lady and female robot": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 0,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 0.0,
+      "avg_cac": 285.0,
+      "avg_cac_vs_lang_pct": -0.7
+    }
+  },
+  "split_screen_win_rates": {
+    "A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 1,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 1.0,
+      "avg_cac": 238.0,
+      "avg_cac_vs_lang_pct": -26.1
+    },
+    "A girl of age 25-30 is at the sea beach holding a selfie stick and talking to the phone. Vertical Split screen. On the left - Female Robot. On the right- same girl at home.": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 1,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 1.0,
+      "avg_cac": 251.0,
+      "avg_cac_vs_lang_pct": -12.7
+    },
+    "A group of 4–5 boys are hanging out at a party, casually talking. One of the boys says something in English. The others immediately react. - Scene 2 — Split-Screen AI Practice": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 0,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 0.0,
+      "avg_cac": 298.0,
+      "avg_cac_vs_lang_pct": -4.2
+    },
+    "A Women shopkeeper is selling Chat on the streets of Daily. A VoxPop interviewer is talking to her. The woman turns around to her right as the Female Humanoid robot appears in the top half of the frame. It is not a split screen. Just follow the reference for how it has been done.": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 0,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 0.0,
+      "avg_cac": 283.0,
+      "avg_cac_vs_lang_pct": -3.5
+    },
+    "Lady aged 25yrs Leaning towards the camera talking to it - White Background Scene change - Horizontal split screen - Lady and female robot": {
+      "winners": 1,
+      "losers": 0,
+      "tier_s_count": 0,
+      "total": 1,
+      "win_rate": 1.0,
+      "win_rate_pct": 100.0,
+      "tier_s_rate": 0.0,
+      "avg_cac": 285.0,
+      "avg_cac_vs_lang_pct": -0.7
+    }
+  },
+  "rules": [
+    "In Tier-S winners, average Hook length is 8.5 words (overall winners: 8.8 words) vs 19.2 words in Tier-B losers; AI Teacher interrupts by Turn 2 in 40% of winners (vs 25% of Tier-B losers).",
+    "Keep Hook word count <= 10 words: Tier-S hooks are 10.7 words shorter than Tier-B underperformers (8.5 vs 19.2 words).",
+    "Introduce the Supernova AI Teacher by Turn 2 (avg entry Turn 12.5 in Tier-S vs Turn 3.5 in Tier-B losers; 40% of winners bring AI Teacher in by Turn 2).",
+    "Maintain rapid conversational dialogue: Tier-S winners average 10.35 words/line across 27 turns (overall winners: 10.18 words/line) vs slow 17.8 words/line across 4.5 turns in Tier-B losers.",
+    "Prioritize high-converting Hook Angles like `Direct Question / Challenge` (100.0% win rate, avg CAC 273.0) over low-performing angles like `Spoken Mistake Correction` (100.0% win rate, avg CAC 298.0).",
+    "Use `A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen` split-screen architecture (100.0% win rate) instead of `Lady aged 25yrs Leaning towards the camera talking to it - White Background Scene change - Horizontal split screen - Lady and female robot` (100.0% win rate).",
+    "Top-converting Persona segment `College Student / General` achieves a 100.0% win rate (Tier-S count: 2, avg CAC: 271.0)."
+  ],
+  "statistical_rules": [
+    "In Tier-S winners, average Hook length is 8.5 words (overall winners: 8.8 words) vs 19.2 words in Tier-B losers; AI Teacher interrupts by Turn 2 in 40% of winners (vs 25% of Tier-B losers).",
+    "Keep Hook word count <= 10 words: Tier-S hooks are 10.7 words shorter than Tier-B underperformers (8.5 vs 19.2 words).",
+    "Introduce the Supernova AI Teacher by Turn 2 (avg entry Turn 12.5 in Tier-S vs Turn 3.5 in Tier-B losers; 40% of winners bring AI Teacher in by Turn 2).",
+    "Maintain rapid conversational dialogue: Tier-S winners average 10.35 words/line across 27 turns (overall winners: 10.18 words/line) vs slow 17.8 words/line across 4.5 turns in Tier-B losers.",
+    "Prioritize high-converting Hook Angles like `Direct Question / Challenge` (100.0% win rate, avg CAC 273.0) over low-performing angles like `Spoken Mistake Correction` (100.0% win rate, avg CAC 298.0).",
+    "Use `A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen` split-screen architecture (100.0% win rate) instead of `Lady aged 25yrs Leaning towards the camera talking to it - White Background Scene change - Horizontal split screen - Lady and female robot` (100.0% win rate).",
+    "Top-converting Persona segment `College Student / General` achieves a 100.0% win rate (Tier-S count: 2, avg CAC: 271.0)."
+  ],
+  "contrastive_rules": [
+    "In Tier-S winners, average Hook length is 8.5 words (overall winners: 8.8 words) vs 19.2 words in Tier-B losers; AI Teacher interrupts by Turn 2 in 40% of winners (vs 25% of Tier-B losers).",
+    "Keep Hook word count <= 10 words: Tier-S hooks are 10.7 words shorter than Tier-B underperformers (8.5 vs 19.2 words).",
+    "Introduce the Supernova AI Teacher by Turn 2 (avg entry Turn 12.5 in Tier-S vs Turn 3.5 in Tier-B losers; 40% of winners bring AI Teacher in by Turn 2).",
+    "Maintain rapid conversational dialogue: Tier-S winners average 10.35 words/line across 27 turns (overall winners: 10.18 words/line) vs slow 17.8 words/line across 4.5 turns in Tier-B losers.",
+    "Prioritize high-converting Hook Angles like `Direct Question / Challenge` (100.0% win rate, avg CAC 273.0) over low-performing angles like `Spoken Mistake Correction` (100.0% win rate, avg CAC 298.0).",
+    "Use `A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen` split-screen architecture (100.0% win rate) instead of `Lady aged 25yrs Leaning towards the camera talking to it - White Background Scene change - Horizontal split screen - Lady and female robot` (100.0% win rate).",
+    "Top-converting Persona segment `College Student / General` achieves a 100.0% win rate (Tier-S count: 2, avg CAC: 271.0)."
+  ],
+  "winning_rules": [
+    "In Tier-S winners, average Hook length is 8.5 words (overall winners: 8.8 words) vs 19.2 words in Tier-B losers; AI Teacher interrupts by Turn 2 in 40% of winners (vs 25% of Tier-B losers).",
+    "Keep Hook word count <= 10 words: Tier-S hooks are 10.7 words shorter than Tier-B underperformers (8.5 vs 19.2 words).",
+    "Introduce the Supernova AI Teacher by Turn 2 (avg entry Turn 12.5 in Tier-S vs Turn 3.5 in Tier-B losers; 40% of winners bring AI Teacher in by Turn 2).",
+    "Maintain rapid conversational dialogue: Tier-S winners average 10.35 words/line across 27 turns (overall winners: 10.18 words/line) vs slow 17.8 words/line across 4.5 turns in Tier-B losers.",
+    "Prioritize high-converting Hook Angles like `Direct Question / Challenge` (100.0% win rate, avg CAC 273.0) over low-performing angles like `Spoken Mistake Correction` (100.0% win rate, avg CAC 298.0).",
+    "Use `A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen` split-screen architecture (100.0% win rate) instead of `Lady aged 25yrs Leaning towards the camera talking to it - White Background Scene change - Horizontal split screen - Lady and female robot` (100.0% win rate).",
+    "Top-converting Persona segment `College Student / General` achieves a 100.0% win rate (Tier-S count: 2, avg CAC: 271.0)."
+  ],
+  "anti_patterns": [
+    "AVOID bloated hooks (> 17 words): Tier-B losers average 19.2 words in the hook, causing early scroll-away.",
+    "AVOID delayed product proof: Tier-B losers delay the AI Teacher entry to Turn 3.5 on average (only 25% enter by Turn 2).",
+    "AVOID monologue-style scripting: Tier-B losers average 17.8 words per line across only 4.5 turns instead of brisk back-and-forth dialogue."
+  ],
+  "winning_visual_patterns": {
+    "preferred_split_screen_type": "A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen",
+    "split_screen_structures": [
+      {
+        "split_screen_type": "A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen",
+        "tier_s_or_winner_count": 1,
+        "win_rate": 1.0,
+        "win_rate_pct": 100.0,
+        "avg_cac": 238.0
+      },
+      {
+        "split_screen_type": "A girl of age 25-30 is at the sea beach holding a selfie stick and talking to the phone. Vertical Split screen. On the left - Female Robot. On the right- same girl at home.",
+        "tier_s_or_winner_count": 1,
+        "win_rate": 1.0,
+        "win_rate_pct": 100.0,
+        "avg_cac": 251.0
+      }
+    ],
+    "hook_visuals": [
+      "A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. The long-haired girl will flip her hair from the front seat of the airplane to the food of the man who is sitting right behind her",
+      "A girl of age 25-30 is at the sea beach holding a selfie stick and talking to the phone."
+    ],
+    "body_visuals": [
+      "making fun of the young man make it in a seductive way just like in reference The Air Hostess takes him to her private crew cabin. Cut to Female robot vertical split screen",
+      "Wrong sign after each statement Vertical Split screen. On the left - Female Robot. On the right- same girl at home."
+    ],
+    "video_flows": [
+      "A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. The long-haired girl will flip her hair from the front seat of the airplane to the food of the man who is sitting right behind her making fun of the young man make it in a seductive way just like in reference The Air Hostess takes him to her private crew cabin. Cut to Female robot vertical split screen",
+      "A girl of age 25-30 is at the sea beach holding a selfie stick and talking to the phone. Wrong sign after each statement Vertical Split screen. On the left - Female Robot. On the right- same girl at home."
+    ],
+    "tier_s_blueprints": [
+      {
+        "split_screen_type": "A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen",
+        "hook_visuals": "A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. The long-haired girl will flip her hair from the front seat of the airplane to the food of the man who is sitting right behind her",
+        "hook_visual": "A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. The long-haired girl will flip her hair from the front seat of the airplane to the food of the man who is sitting right behind her",
+        "body_visuals": "making fun of the young man make it in a seductive way just like in reference The Air Hostess takes him to her private crew cabin. Cut to Female robot vertical split screen",
+        "body_visual": "making fun of the young man make it in a seductive way just like in reference The Air Hostess takes him to her private crew cabin. Cut to Female robot vertical split screen",
+        "video_flow": "A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. The long-haired girl will flip her hair from the front seat of the airplane to the food of the man who is sitting right behind her making fun of the young man make it in a seductive way just like in reference The Air Hostess takes him to her private crew cabin. Cut to Female robot vertical split screen",
+        "characters_description": "Female Humanoid Robot",
+        "raw_visual_text": "Visual: A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity.\n(The long-haired girl will flip her hair from the front seat of the airplane to the food of the man who is sitting right behind her)\n(making fun of the young man )\n(make it in a seductive way just like in reference )\n[The Air Hostess takes him to her private crew cabin.]\n[Cut to Female robot vertical split screen ]",
+        "ad_code": "W40_LONG_HAIRED_INSULTS",
+        "cac_tier": "TIER_S"
+      },
+      {
+        "split_screen_type": "A girl of age 25-30 is at the sea beach holding a selfie stick and talking to the phone. Vertical Split screen. On the left - Female Robot. On the right- same girl at home.",
+        "hook_visuals": "A girl of age 25-30 is at the sea beach holding a selfie stick and talking to the phone.",
+        "hook_visual": "A girl of age 25-30 is at the sea beach holding a selfie stick and talking to the phone.",
+        "body_visuals": "Wrong sign after each statement Vertical Split screen. On the left - Female Robot. On the right- same girl at home.",
+        "body_visual": "Wrong sign after each statement Vertical Split screen. On the left - Female Robot. On the right- same girl at home.",
+        "video_flow": "A girl of age 25-30 is at the sea beach holding a selfie stick and talking to the phone. Wrong sign after each statement Vertical Split screen. On the left - Female Robot. On the right- same girl at home.",
+        "characters_description": "Female Humanoid Robot",
+        "raw_visual_text": "Visual Description: A girl of age 25-30 is at the sea beach holding a selfie stick and talking to the phone.\n(Wrong sign after each statement)\n(Vertical Split screen. On the left - Female Robot. On the right- same girl at home.)",
+        "ad_code": "W37_STICK_HONEYMOON",
+        "cac_tier": "TIER_S"
+      }
+    ],
+    "summary": "TIER_S Visual Formula: Open with `A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. The long-haired girl will flip her hair from the front seat of the airplane to the food of the man who is sitting right behind her`; transition by Turn 2 into `A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen` split-screen (`making fun of the young man make it in a seductive way just like in reference The Air Hostess takes him to her private crew cabin. Cut to Female robot vertical split screen`); follow flow `A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. The long-haired girl will flip her hair from the front seat of the airplane to the food of the man who is sitting right behind her making fun of the young man make it in a seductive way just like in reference The Air Hostess takes him to her private crew cabin. Cut to Female robot vertical split screen`."
+  },
+  "textgrad_instincts": [],
+  "prompt_directives": "### SUPERNOVA CONTRASTIVE PLAYBOOK RULES\n- In Tier-S winners, average Hook length is 8.5 words (overall winners: 8.8 words) vs 19.2 words in Tier-B losers; AI Teacher interrupts by Turn 2 in 40% of winners (vs 25% of Tier-B losers).\n- Keep Hook word count <= 10 words: Tier-S hooks are 10.7 words shorter than Tier-B underperformers (8.5 vs 19.2 words).\n- Introduce the Supernova AI Teacher by Turn 2 (avg entry Turn 12.5 in Tier-S vs Turn 3.5 in Tier-B losers; 40% of winners bring AI Teacher in by Turn 2).\n- Maintain rapid conversational dialogue: Tier-S winners average 10.35 words/line across 27 turns (overall winners: 10.18 words/line) vs slow 17.8 words/line across 4.5 turns in Tier-B losers.\n- Prioritize high-converting Hook Angles like `Direct Question / Challenge` (100.0% win rate, avg CAC 273.0) over low-performing angles like `Spoken Mistake Correction` (100.0% win rate, avg CAC 298.0).\n- Use `A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen` split-screen architecture (100.0% win rate) instead of `Lady aged 25yrs Leaning towards the camera talking to it - White Background Scene change - Horizontal split screen - Lady and female robot` (100.0% win rate).\n- Top-converting Persona segment `College Student / General` achieves a 100.0% win rate (Tier-S count: 2, avg CAC: 271.0).\n\n### WINNING VISUAL BLUEPRINT PATTERNS (TIER-S)\n- TIER_S Visual Formula: Open with `A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. The long-haired girl will flip her hair from the front seat of the airplane to the food of the man who is sitting right behind her`; transition by Turn 2 into `A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. Cut to Female robot vertical split screen` split-screen (`making fun of the young man make it in a seductive way just like in reference The Air Hostess takes him to her private crew cabin. Cut to Female robot vertical split screen`); follow flow `A man is sitting in the airplane in the middle seat, whereas the female who is sitting right in front of her flips her hair, and it goes to the food of the person who is sitting right behind her. Follow the reference for more clarity. The long-haired girl will flip her hair from the front seat of the airplane to the food of the man who is sitting right behind her making fun of the young man make it in a seductive way just like in reference The Air Hostess takes him to her private crew cabin. Cut to Female robot vertical split screen`.\n\n### LOSER ANTI-PATTERNS TO AVOID (TIER-B)\n- AVOID bloated hooks (> 17 words): Tier-B losers average 19.2 words in the hook, causing early scroll-away.\n- AVOID delayed product proof: Tier-B losers delay the AI Teacher entry to Turn 3.5 on average (only 25% enter by Turn 2).\n- AVOID monologue-style scripting: Tier-B losers average 17.8 words per line across only 4.5 turns instead of brisk back-and-forth dialogue."
+}
